@@ -1,4 +1,6 @@
-const livekit = require('livekit-client');
+import * as LiveKit from 'livekit-client';
 
-window.livekit = livekit;
+if (typeof window !== 'undefined') {
+  window.livekit = LiveKit;
+}
 

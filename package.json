@@ -1,0 +1,22 @@
+{
+  "name": "livekit-window",
+  "version": "1.0.0",
+  "description": "A simple wrapper that imports livekit-client and attaches it to the global window object for use in browser environments without a build system.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fatihkaan22/livekit-window.git"
+  },
+  "author": "Fatih Kaan Salgir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatihkaan22/livekit-window/issues"
+  },
+  "homepage": "https://github.com/fatihkaan22/livekit-window#readme",
+  "dependencies": {
+    "livekit-client": "^2.13.3"
+  }
+}
